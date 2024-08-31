@@ -11,36 +11,47 @@
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    outline: 1px dotted rgb(0, 0, 0);
+}
+/* box for body */
+.text-box {
+      max-width: 800px; /* Adjust width as needed */
+      margin: 20px auto; /* Center the box horizontally and add vertical spacing */
+      padding: 20px; /* Padding inside the box */
+      background-color: #f9f9f9; /* Light gray background for the box */
+      border: 1px solid #ddd; /* Light border around the box */
+      border-radius: 8px; /* Rounded corners (optional) */
+      text-align: center;
+}
+
+.box-content {
+    text-align: left;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 body {
-    background-color: rgb(210, 141, 57);
     width: 400px;
     margin: 20px;
     padding: 10px;
 
 }
 
+h1 {
+    text-align: center;
+}
+
+h1,h3 {
+    color: rgb(191, 100, 21);
+}
 img {
     width: 200px;
+    align-content: center;
 }
 
-h1 {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
-.recipe-text {
-    align-content: left;
-}
-
-.recipe-card {
-    width: 400px;
-    text-align: center;
-    background-color: white;
-    border: 2px solid brown;
+.list {
+    list-style-position: inside;
+    padding-left: 20px;
 }
